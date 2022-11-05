@@ -34,24 +34,28 @@ struct button checkButton(){
 
     if (digitalRead(b1) == HIGH) {
     but1.button1 = true;
+    return but1;
 
   };
 
 
   if (digitalRead(b2) == HIGH) {
     but1.button2 = true;
+    return but1;
 
   };
  if (digitalRead(b3) == HIGH) {
     but1.button3 = true;
+    return but1;
 
   };
 
    if (digitalRead(b4) == HIGH) {
     but1.button4 = true;
+    return but1;
 
   };
-  return but1;
+  
 };
 
 void setup() {
