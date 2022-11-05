@@ -83,4 +83,5 @@ gotoNinety();
 if (buttonState.button4 == true){
 gotoOneEighty();
 };
+delay(1000);
 }
