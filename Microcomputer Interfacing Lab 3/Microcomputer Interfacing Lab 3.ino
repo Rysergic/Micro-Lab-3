@@ -8,7 +8,7 @@ int b2 = 5;
 int b3 = 6;
 int b4 = 7;
 
-jkljkljkljkljl
+
 void gotoZero(){
    myservo.write(val = 0);
 };
